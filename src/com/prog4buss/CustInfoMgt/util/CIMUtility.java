@@ -35,7 +35,7 @@ public class CIMUtility {
             c = str.charAt(0);
             if (c != '1' && c != '2' && 
                 c != '3' && c != '4' && c != '5') {
-                System.out.print("选择错误，请重新输入：");
+                System.out.print("Erro, input again: ");
             } else break;
         }
         return c;
